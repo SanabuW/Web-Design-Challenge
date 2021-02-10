@@ -1,0 +1,42 @@
+.master_container{
+  background-color:aqua;
+  height:1000px;
+}
+
+.top_bar{
+  position:relative;
+  background-color:blueviolet;
+  margin-top:10px;
+  height:150px;
+}
+
+.hp_button{
+  background-color:greenyellow;
+  height:80px;
+}
+
+.navbar{
+  background-color:green;
+  height:50px;
+}
+
+.main_bg{
+  background-color:lightgray;
+  height:800px;
+}
+
+.main_content{
+  background-color:lawngreen;
+  border:1px solid;
+  height:600px;
+}
+
+.summary{
+  background-color:burlywood;
+  height:50px;
+}
+
+.viz_menu{
+  background-color:hotpink;
+  height:50px;
+}
