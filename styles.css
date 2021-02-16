@@ -8,20 +8,12 @@
 
 
 
-
-
-
-
-
 /* live styles */
-
 #master_cont{
-  /* background-color:rgb(149, 221, 197); */
-  /* margin-top:20px;
-  margin:0px; */
   margin-left:0px;
   margin-right:0px;
 }
+
 h1, h2, h3, h4, h5{
   color:azure;
 }
@@ -43,9 +35,6 @@ h1, h2, h3, h4, h5{
 
 #navbarNavDropdown{
 text-align:right;
-
-
-
 }
 
 #eg_img{
@@ -58,7 +47,6 @@ text-align:right;
 }
 
 #viz_thumb{
-  /* width:100px; */
   padding:0px;
 
 }
@@ -73,29 +61,11 @@ text-align:right;
 
 }
 
-@media (max-width:768px) {
-  #nav_main{
-    background-color:rgb(146, 219, 231);  
-  }
-  #nav_main_cont{
-    padding:0px;
-    background-color:rgb(146, 219, 231);  
-
-  }
-  #navbarNavDropdown{
-    background-color:white;
-    padding:10px
-  }
-  #navbar-nav{
-    /* background-color:rgb(63, 11, 206);
-margin:0px;
-padding:0px; */
-  }
-}
-
 #data_table td{
 /* border:1px solid; */
 }
+
+
 
 /* Scrollbar code "my-custom-scrollbar" and "table-wrapper-scroll-y" used from the following source:
 https://mdbootstrap.com/docs/b4/jquery/tables/scroll/
@@ -110,3 +80,23 @@ https://mdbootstrap.com/docs/b4/jquery/tables/scroll/
 .table-wrapper-scroll-y {
   display: block;
   }
+
+
+
+
+
+@media (max-width:768px) {
+  #nav_main{
+    background-color:rgb(146, 219, 231);
+  }
+
+  #nav_main_cont{
+    padding:0px;
+    background-color:rgb(146, 219, 231);
+
+  }
+  #navbarNavDropdown{
+    background-color:white;
+    padding:10px
+  }
+}
