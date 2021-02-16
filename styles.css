@@ -1,9 +1,9 @@
 /* for testing */
 .container {
-  border:1px solid;
+  /* border:1px solid; */
 }
 .container div {
-  border:1px solid;
+  /* border:1px solid; */
 }
 
 
@@ -16,15 +16,16 @@
 /* live styles */
 
 #master_cont{
-  background-color:rgb(149, 221, 197);
+  /* background-color:rgb(149, 221, 197); */
   /* margin-top:20px;
-  margin-bottom:20px;
-  padding:5px; */
-
+  margin:0px; */
+  margin-left:0px;
+  margin-right:0px;
 }
 
 
 #main_window{
+  background-color:rgb(154, 186, 194);
 
 }
 
@@ -61,7 +62,7 @@ text-align:right;
 }
 
 #viz_thumb_cont{
-  padding:0px;
+  padding:5px;
 
 }
 
@@ -84,3 +85,21 @@ margin:0px;
 padding:0px; */
   }
 }
+
+#data_table td{
+/* border:1px solid; */
+}
+
+/* Scrollbar code "my-custom-scrollbar" and "table-wrapper-scroll-y" used from the following source::after
+https://mdbootstrap.com/docs/b4/jquery/tables/scroll/
+*/
+
+.my-custom-scrollbar{
+  position: relative;
+  height: 800px;
+  overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+  }
