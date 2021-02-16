@@ -28,6 +28,7 @@ This repository is for the web design assignment for the UCSD Data Bootcamp usin
 
 ### data.html
 -Features data table using Bootstrap data classes
+-Table uses scrollbars to view all data
 
 ## Credit
 Table scrollbar text used from:
