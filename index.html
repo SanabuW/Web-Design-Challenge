@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Latitude Study</title>
-    <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -11,13 +11,12 @@
 <body>
 
 <!-- Breakpoint is set at Bootstrap md (768px) -->
-
     <div class="container" id="master_cont" >
-<!-- navbar -->
 
+<!-- navbar -->
 <nav class="navbar navbar-expand-md navbar-light bg-light" id="nav_main">
     <div class="container-fluid" id="nav_main_cont">
-      <a class="navbar-brand" id="home_nav" href="index.html">Latitude</a>
+      <a class="navbar-brand" id="home_nav" href="index.html"><h4>Latitude</h4></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -47,26 +46,21 @@
       </div>
     </div>
   </nav>
-  
+
 
 
 <!-- main content -->
-<!-- within main content, two columns. One for summary, one for viz links-->
-<!-- 2x2 grid that collapses to 4x1 on md breakpoint -->
-
       <div class="container" id="main_window">
-        <div class="row align-items-center">
+        <div class="row align-items-start">
           <div class="col-md-7">
-              <!-- use BS gutters here? -->
               <h1>Summary: Latitude vs. X</h1>
               <img class="img-fluid rounded float-md-start" id="eg_img" src="Resources/assets/images/1.1-latitudevstemperature.png" class="rounded float-start" alt="">
             <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
             <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5" id="viz_grid">
               <h2>Vizualizations</h2>
-              <!-- center these when large?? -->
-            <div class="container" id="viz_grid">
+            <div class="container">
                 <div class="row">
                   <div class="col-3 col-md-6" id="viz_thumb_cont">
                     <a href="pages\vizualizations\viz_temp.html"><img class="img-fluid" src="Resources/assets/images/1.1-latitudevstemperature.png" id="viz_thumb" alt=""></a>
