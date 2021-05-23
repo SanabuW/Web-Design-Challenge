@@ -4,7 +4,7 @@ UCSD Section 11 Web-Design-Challenge Homework
 UCSD Section 11 Web-Design-Challenge Homework
 
 URL:
-https://SanabuW.github.io/web-scraping-challenge/
+https://sanabuw.github.io/Web-Design-Challenge/
 
 # Project Overview
 This repository is for the web design assignment for the UCSD Data Bootcamp using the Bootstrap website framework. The assignment covers the following concepts:
